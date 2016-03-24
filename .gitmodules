@@ -1,0 +1,6 @@
+[submodule "pd-osc"]
+	path = pd-osc
+	url = https://github.com/gllmAR/pd-osc
+[submodule "pd-compressor"]
+	path = pd-compressor
+	url = https://github.com/gllmAR/pd-compressor
