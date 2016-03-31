@@ -1,0 +1,5 @@
+/dac.gain 0.941;
+/rev.wet 0.225;
+/vcf.q 0.802;
+/vcf.freq 655;
+/adc.gain 0.548;
