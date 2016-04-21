@@ -2,10 +2,17 @@
 
 Traitement temps réel pour Pure data 
 
-
+cd ~/src
+git clone --recursive https://github.com/gllmAR/sigmundBlow
 
 #### installer pd
 
-#### installer nodeRed
+
+
+#### installer node
+
+#### installer rhizome
 	
-#### installer 
+#### run le script ;
+
+/home/pi/src/pd-0.46-7/bin/pd -nogui -listdev -audiooutdev "3,3" /home/pi/src/sigmundBlow/_sigmundBlow.pd
