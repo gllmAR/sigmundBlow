@@ -1,2 +1,2 @@
 #!/bin/sh
-/home/pi/src/pd-0.46-7/bin/pd -nogui -listdev -audiodev "3,3" -nogui /home/pi/src/sigmundBlow/_sigmundBlow.pd
+/home/pi/src/pd-0.46-7/bin/pd -nogui -listdev -audiodev "3,3" /home/pi/src/sigmundBlow/_sigmundBlow.pd
