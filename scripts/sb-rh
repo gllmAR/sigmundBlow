@@ -1,2 +1,2 @@
 #!/bin/sh
-cd /home/pi/src/sigmundBlow/interface && rhizome config.js
+cd /home/pi/src/sigmundBlow/interface && sudo rhizome config.js
