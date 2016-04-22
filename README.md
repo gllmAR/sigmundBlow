@@ -19,9 +19,9 @@ sudo cp ~/src/sigmundBlow/services/* /etc/systemd/system/
 
 sudo systemctl daemon-reload
 
-sudo systemctl enable sg-pd.service
+sudo systemctl enable sb-pd.service
 
-sudo systemctl enable sg-rh.service
+sudo systemctl enable sb-rh.service
 	
 #### run le script ;
 
