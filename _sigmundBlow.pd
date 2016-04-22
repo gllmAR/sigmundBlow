@@ -170,8 +170,8 @@
 #X msg 709 547 connect 127.0.0.1 9000;
 #X obj 547 584 oSend;
 #X obj 675 239 del 1000;
-#X obj 709 511 del 15000;
-#X obj 612 514 del 17000;
+#X obj 709 511 del 100;
+#X obj 612 514 del 120;
 #X connect 0 0 7 0;
 #X connect 1 0 45 0;
 #X connect 2 0 1 0;
