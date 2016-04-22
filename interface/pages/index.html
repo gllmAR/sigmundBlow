@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rhizome Interface</title>
+  <script src="/rhizome/rhizome.js"></script>
+  <script src="loadInterface.js"></script>
+  <script type="text/javascript" src="interface.json"></script>
+  <link rel="stylesheet" type="text/css" href="css/slider.css" />
+  <link rel="stylesheet" type="text/css" href="css/button.css" />
+  <link rel="stylesheet" type="text/css" href="css/font.css" />
+
+
+  <script>
+     (function() {
+         console.log('starting....')
+         rhizome.start(function(err) {
+           if (err) throw err
+           rhizome.send('/sys/subscribe', ['/'])
+         })
+         rhizome.on('message', function(addr, args) {
+           if (document.getElementById(addr+".input").type == "range"){
+             document.getElementById(addr+".input").value = (args[0])
+             document.getElementById(addr+".label").innerHTML = parseFloat(args[0]).toPrecision(5);
+           }
+         })
+         rhizome.on('connected', function() { console.log('connected') })
+     })();
+   </script>
+
+</head>
+
+<body >
+
+  <script>
+  loadInterface();
+</script>
+
+</body>
+
+</html>
