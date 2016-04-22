@@ -1,8 +1,8 @@
 [Unit]
-Description=PSIS StartPD
+Description=Sigmund blow Start PD patch
 
 [Service]
-ExecStart=/home/pi/src/posteDecoute/scripts/psis-pd
+ExecStart=/home/pi/src/sigmundBlow/scripts/sb-pd
 
 
 [Install]
