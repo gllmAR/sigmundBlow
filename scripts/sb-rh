@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/pi/src/sigmundBlow/interface && rhizome config.js
