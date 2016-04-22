@@ -1,0 +1,9 @@
+[Unit]
+Description=Sigmund blow Start Rhizome interface
+
+[Service]
+ExecStart=/home/pi/src/sigmundBlow/scripts/sb-rh
+
+
+[Install]
+WantedBy=multi-user.target
