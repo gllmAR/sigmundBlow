@@ -13,11 +13,9 @@ git clone --recursive https://github.com/gllmAR/sigmundBlow
 
 #### installer rhizome
 
-#### copier les services dans le dossier 
+#### systemD 
 
 sudo cp ~/src/sigmundBlow/services/* /etc/systemd/system/
-
-recharger les services
 
 sudo systemctl daemon-reload
 
