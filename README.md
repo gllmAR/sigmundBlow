@@ -12,6 +12,18 @@ git clone --recursive https://github.com/gllmAR/sigmundBlow
 #### installer node
 
 #### installer rhizome
+
+#### copier les services dans le dossier 
+
+sudo cp ~/src/sigmundBlow/services/* /etc/systemd/system/
+
+recharger les services
+
+sudo systemctl daemon-reload
+
+sudo systemctl enable sg-pd.service
+
+sudo systemctl enable sg-rh.service
 	
 #### run le script ;
 
