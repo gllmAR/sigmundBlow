@@ -186,7 +186,7 @@
 #X obj 219 762 s toOSC;
 #X msg 220 737 /rms.dac \$1;
 #X msg 456 40 1;
-#X msg 434 97 /rms.adc.pro \$1;
+#X msg 434 97 /rms.adc \$1;
 #X connect 0 0 7 0;
 #X connect 1 0 45 0;
 #X connect 2 0 1 0;
