@@ -1,3 +1,9 @@
+:root {
+  --track-color: #777;
+  --thumb-color: #F9A900;
+}
+
+
 .hFader {
   -webkit-appearance: none;
   margin: 10px 0;
@@ -10,45 +16,46 @@
   width: 100%;
   height: 15px;
   cursor: pointer;
-  animate: 0.2s;
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  background: #666;
-  border-radius: 25px;
-  border: 0px solid #000101;
+
+
+  background: var(--track-color);
+
 }
+
+
+
 .hFader::-webkit-slider-thumb {
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  border: 0px solid #000000;
+
   height: 20px;
   width: 39px;
   border-radius: 7px;
-  background: #b7e57b;
+  background: var(--thumb-color);
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -3.6px;
 }
 .hFader:focus::-webkit-slider-runnable-track {
-  background: #666;
+  background: var(--track-color);
 }
+
+
+
 .hFader::-moz-range-track {
   width: 100%;
   height: 15px;
   cursor: pointer;
-  animate: 0.2s;
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  background: #666;
-  border-radius: 25px;
+  background: var(--track-color);
   border: 0px solid #000101;
 }
 .hFader::-moz-range-thumb {
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  border: 0px solid #000000;
+
   height: 20px;
   width: 39px;
   border-radius: 7px;
-  background: #b7e57b;
+  background: var(--thumb-color);
   cursor: pointer;
 }
+
 
 
 body {

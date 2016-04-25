@@ -39,6 +39,17 @@ var myInterface = {
 		"max": "1.2",
 		"step": ".01"
 	},{
+		"class": "progress",
+		"name": "rms.adc",
+		"min": "0",
+		"max": "100"
+	},{
+		"class": "progress",
+		"name": "rms.dac",
+		"min": "0",
+		"max": "100"
+	},{
+
 		"class": "push",
 		"name": "test"
 	},{

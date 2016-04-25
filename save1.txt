@@ -1,4 +1,4 @@
-/dac.gain 0.57;
+/dac.gain 0.77;
 /rev.wet 0.148;
 /vcf.q 0.751;
 /vcf.freq 996;
