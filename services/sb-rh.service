@@ -1,11 +1,12 @@
 [Unit]
-Wants=network-online.target
-After=network-online.target
-Description=Sigmund blow Start Rhizome interface
+Description=sigmundBlow : Starting Rhizome interface
+
 
 [Service]
 ExecStart=/home/pi/src/sigmundBlow/scripts/sb-rh
-
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
+
+
