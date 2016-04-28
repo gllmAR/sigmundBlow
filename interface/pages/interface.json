@@ -2,6 +2,43 @@ var myInterface = {
 	"interface": [{
 		"class":"title",
 		"name":"sigmundBlow interface"
+		},{
+			"class": "progress",
+			"name": "c_mhz",
+			"min": "20",
+			"max": "1700"
+			}, {
+				"class": "hFader",
+				"name": "goto_mhz",
+				"min": "20",
+				"max": "1700",
+				"step": ".01"
+		},{
+			"class": "progress",
+			"name": "c_wind",
+			"min": "0",
+			"max": "1"
+		},{
+			"class": "progress",
+			"name": "rms.adc",
+			"min": "0",
+			"max": "100"
+		},{
+			"class": "progress",
+			"name": "rms.dac",
+			"min": "0",
+			"max": "100"
+		},{
+			"class": "push",
+			"name": "test"
+		},{
+			"class": "push",
+			"name": "load"
+		},{
+			"class": "push",
+			"name": "save"
+		}, {
+			"class": "br",
 		}, {
 		"class": "hFader",
 		"name": "adc.gain",
@@ -13,50 +50,30 @@ var myInterface = {
 		"name": "vcf.freq",
 		"min": "0",
 		"max": "5000",
-		"step": "1"
+		"step": ".1"
 	}, {
 		"class": "hFader",
 		"name": "vcf.q",
 		"min": "0",
 		"max": "5",
-		"step": ".01"
+		"step": ".001"
 	},{
 		"class": "hFader",
 		"name": "rev.wet",
 		"min": "0",
 		"max": "1",
-		"step": ".01"
+		"step": ".001"
 	},{
 		"class": "hFader",
 		"name": "dsp.wet",
 		"min": "0",
 		"max": "1",
-		"step": ".01"
+		"step": ".001"
 	},{
 		"class": "hFader",
 		"name": "dac.gain",
 		"min": "0",
 		"max": "1.2",
-		"step": ".01"
-	},{
-		"class": "progress",
-		"name": "rms.adc",
-		"min": "0",
-		"max": "100"
-	},{
-		"class": "progress",
-		"name": "rms.dac",
-		"min": "0",
-		"max": "100"
-	},{
-
-		"class": "push",
-		"name": "test"
-	},{
-		"class": "push",
-		"name": "load"
-	},{
-		"class": "push",
-		"name": "save"
+		"step": ".001"
 	}]
 }

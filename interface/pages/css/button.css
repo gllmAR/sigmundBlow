@@ -9,7 +9,7 @@
 .push {
   font-family: 'courier new';
   font-weight: bold;
-  color: var(--push-text) !important;
+  color: #000 !important;
   font-size: 14px;
 
   box-shadow: 1px 1px 1px #000;
@@ -18,18 +18,18 @@
   -webkit-border-radius: 10px;
   border-radius: 10px;
   border: 2px solid #ffffff;
-  background: var(--push-bkg);
+  background: #C68600;
 
 }
 
 .push:hover {
-  color: var(--push-text) !important;
-  background: var(--push-h-bkg);
+  color: #000 !important;
+  background: #F9A900;
 
 }
 
 .push:active {
-  color: var(--push-text) !important;
-  background: var(--push-a-bkg);
+  color: #000 !important;
+  background: #FAC24B;
 
 }

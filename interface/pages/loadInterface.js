@@ -13,7 +13,7 @@
                 break;
             case "progress":
                 document.getElementById(addr).value = (args[0]);
-                document.getElementById(addr+".label").innerHTML = parseFloat(args[0]).toPrecision(3);
+                document.getElementById(addr+".label").innerHTML = parseFloat(args[0]).toPrecision(6);
                 break;
 
             case "label":
@@ -41,6 +41,11 @@ function loadInterface() {
                 x.innerHTML = myInterface.interface[i].name;
                 x.className = myInterface.interface[i].class;
                 document.body.appendChild(x);
+                var w = document.createElement("BR");
+                document.body.appendChild(w);
+                break;
+
+            case "br":
                 var w = document.createElement("BR");
                 document.body.appendChild(w);
                 break;
@@ -99,9 +104,9 @@ function loadInterface() {
                   x.max = myInterface.interface[i].max;
                   y.innerHTML = '/' + myInterface.interface[i].name + " ";
                   z.id = '/' + myInterface.interface[i].name +".label"
-                  document.body.appendChild(y);
-                  document.body.appendChild(z)
                   document.body.appendChild(x);
+                  document.body.appendChild(y)
+                  document.body.appendChild(z);
                   var w = document.createElement("BR");
                   document.body.appendChild(w);
 
